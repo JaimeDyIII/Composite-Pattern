@@ -15,7 +15,6 @@ public class Teacher implements OrganizationComponent {
 
     @Override
     public void displayDetails() {
-        // Display the teacher details in a well-structured format
         System.out.println("  [Teacher] " + name + " | Subject: " + subject + " | Salary: ₱" + salary);
     }
 }
